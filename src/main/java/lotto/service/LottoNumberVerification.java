@@ -1,8 +1,5 @@
 package lotto.service;
 
-import lotto.domain.BonusNum;
-import lotto.domain.Rank;
-
 import java.util.List;
 
 //로또 번호 일치 여부 검증
