@@ -32,4 +32,7 @@ public class OutputView {
         DecimalFormat df = new DecimalFormat("#,##0.0");
         System.out.println("총 수익률은 " + df.format(rate) + "%입니다.");
     }
+    public void printError(String message){
+        System.out.println(message);
+    }
 }
